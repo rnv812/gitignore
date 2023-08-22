@@ -37,9 +37,6 @@ All templates are coppied to `~/.gitignore_templates/` after the installation. Y
 > Is it possible to use script if I'm Windows user?
 >
 > You can run it using the [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
-> ```bash
-> wsl gitignore <template name>
-> ```
 
 ## References
 All gitignore templates were taken from the official repo: https://github.com/github/gitignore
