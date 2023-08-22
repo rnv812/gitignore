@@ -38,7 +38,7 @@ All templates are coppied to `~/.gitignore_templates/` after the installation. Y
 >
 > You can run it using:
 > - [WSL](https://learn.microsoft.com/en-us/windows/wsl/install), with no any differences;
-> - Git Bash, manually adjusting path to templates by changing next line:
+> - [Git Bash](https://git-scm.com/downloads), not using installation script but not having autocomplete and manually adjusting path to templates by changing next line:
 > ```bash
 > # gitignore.sh
 > TEMPLATE="/home/${USER}/.gitignore_templates/$1.gitignore"
