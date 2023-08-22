@@ -36,7 +36,18 @@ All templates are coppied to `~/.gitignore_templates/` after the installation. Y
 
 > Is it possible to use script if I'm Windows user?
 >
-> You can run it using the [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
+> You can run it using:
+> - [WSL](https://learn.microsoft.com/en-us/windows/wsl/install), with no any differences;
+> - Git Bash, manually adjusting path to templates by changing next line:
+> ```bash
+> # gitignore.sh
+> TEMPLATE="/home/${USER}/.gitignore_templates/$1.gitignore"
+> ```
+> Should be changed to something like following:
+> ```bash
+> TEMPLATE=~/"Documents/.gitignore_templates/$1.gitignore"
+> ```
+> The above example assumes that templates are placed into `C:\Users\<user>\Documents\.gitignore_templates` folder.
 
 ## References
 All gitignore templates were taken from the official repo: https://github.com/github/gitignore
