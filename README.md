@@ -30,9 +30,9 @@ All templates are coppied to `~/.gitignore_templates/` after the installation. Y
 > After installation command `gitignore` is not found.
 > 
 > Try to add `~/.local/bin/` directory to `$PATH`. You can use next command:
-```bash
-echo "export PATH=$PATH:/home/${USER}/.local/bin/" >> "~/.bashrc"
-```
+> ```bash
+> echo "export PATH=$PATH:/home/${USER}/.local/bin/" >> "~/.bashrc"
+> ```
 
 ## References
 All gitignore templates were taken from the official repo: https://github.com/github/gitignore
