@@ -27,7 +27,7 @@ All templates are coppied to `~/.gitignore_templates/` after the installation. Y
 > 
 > To use autocomplete it needs to place completion script to `/etc/bash_completion.d/` which is owned by root.
 
-> After installation command `gitignore` is not found  
+> After installation command `gitignore` is not found.
 > 
 > Try to add `~/.local/bin/` directory to `$PATH`. You can use next command:
 ```bash
